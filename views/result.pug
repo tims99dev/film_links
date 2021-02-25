@@ -1,0 +1,7 @@
+extends layout.pug
+
+block content
+    each link in links
+        p
+            h1(style='word-break: break-word;') 
+                a(href=link)=link
